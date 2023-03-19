@@ -1,10 +1,10 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 function Title({ headline }) {
   return (
-    <div>
-      <h2>{ headline }</h2>
+    <div className="title">
+      <h2 className="title-name">{ headline }</h2>
     </div>
   );
 }

@@ -1,9 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 function PlanetCard({ planetName, planetImage }) {
   return (
-    <div data-testid="planet-card">
+    <div data-testid="planet-card" className="planetcard">
       <p data-testid="planet-name">{planetName}</p>
       <img src={ planetImage } alt={ `Planeta ${planetName}` } />
     </div>

@@ -1,9 +1,9 @@
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 function MissionCard({ name, year, country, destination }) {
   return (
-    <div data-testid="mission-card">
+    <div data-testid="mission-card" className="missioncard">
       <p data-testid="mission-name">{name}</p>
       <p data-testid="mission-year">{year}</p>
       <p data-testid="mission-country">{country}</p>

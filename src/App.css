@@ -1,3 +1,67 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap') ;
+
+body {
+  background-image: url('./images/background.png');
+  color: white;
+  font-family: Cinzel , serif;
   text-align: center;
+}
+
+.header {
+  border-radius: 10px;
+  width: 100%;
+}
+
+.title {
+  border: solid 2px grey;
+  border-radius: 10px;
+  height: 60px;
+  margin: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 50%;
+}
+
+.title:hover {
+  transition-duration: 500ms;
+  width: 100%;
+}
+
+.solarsystem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.planetcard img {
+  border-radius: 10px;
+  padding: 2px;
+  width: 200px;
+}
+
+.planetcard img:hover {
+  transition-duration: 500ms;
+  width: 300px;
+}
+
+.missions-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.missioncard {
+  background-color: black;
+  border: solid 2px grey;
+  border-radius: 10px;
+  height: 180px;
+  opacity: 80%;
+  width: 250px;
+}
+
+.missioncard:hover {
+  background-color: #34435e;
+  opacity: unset;
+  transition-duration: 500ms;
 }
